@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_light">#ffeae1c0</color>
+    <color name="scoreboard_active">#ffffcc00</color>
+    <color name="scoreboard_inactive">#ffdddddd</color>
+    <color name="scoreboard_resigned">#ff888888</color>
+    <color name="game_tab_content">#ffe8e1c4</color>
+    <color name="text_primary_light">#ffc0c0c0</color>
+    <color name="background_dark">#ff112232</color>
+    <color name="tile_text_wildcard">#ffb9782c</color>
+    <color name="tile_text_highlight">#ffffffff</color>
+    <color name="tile_text_normal">#ff000000</color>
+    <color name="invisible">#00000000</color>
+    <color name="board_border_color">#ffE0E0E0</color>
+    <color name="preferences_title_background">#ffE0E0E0</color>
+    <color name="preferences_title">#ffeeeeee</color>
+    <color name="list_view_dialog_background">#ffffffff</color>
+    <color name="score_preview_text">#ffffffff</color>
+    <color name="tile_rack_solid">#ff2c2418</color>
+    <color name="dialog_separator">#ff909090</color>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="status">false</item>
+    <item type="id" name="drag_layer">false</item>
+    <item type="id" name="main_layout">false</item>
+	<item type="id" name="quick_panel_include">false</item>
+    <item type="id" name="tile_rack">false</item>
+    <item type="id" name="board">false</item>
+	<item type="id" name="player_indicator">false</item>
+	<item type="id" name="player_name">false</item>
+    <item type="id" name="player_score">false</item>
+	<item type="id" name="return_tiles">false</item>
+    <item type="id" name="shuffle">false</item>
+    <item type="id" name="play">false</item>
+	<item type="id" name="player1_score_panel">false</item>
+    <item type="id" name="player2_score_panel">false</item>
+	<item type="id" name="layout_status">false</item>
+    <item type="id" name="status_msg">false</item>
+	<item type="id" name="layout_quick_panel">false</item>
+    <item type="id" name="scoreboard_panel">false</item>
+	<item type="id" name="tiles_remaining">false</item>
+</resources>

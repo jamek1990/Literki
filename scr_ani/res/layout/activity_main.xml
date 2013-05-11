@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/drag_layer" android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/status_bar" />
+        <include android:id="@id/quick_panel_include" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/quick_panel" />
+      	<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tile_rack" android:background="@color/tile_rack_solid" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layoutAnimation="@anim/tile_rack_anim" android:layout_width="fill_parent" android:layout_height="55.0dip" android:minHeight="55.0dip" android:layout_above="@id/quick_panel_include" />
+    	<com.example.scr_ani.Board.BoardView android:id="@id/board" android:background="@drawable/background_tile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tile_rack" android:layout_below="@id/status" android:isScrollContainer="true" />
+    </RelativeLayout>
+</FrameLayout>

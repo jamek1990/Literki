@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tilerack_tile_size">45.0dip</dimen>
+    <dimen name="tile_text_size">30.0dip</dimen>
+    <dimen name="tile_points_size">8.0dip</dimen>
+    <dimen name="board_border_width">10.0dip</dimen>
+    <dimen name="board_cell_size">48.0dip</dimen>
+</resources>
