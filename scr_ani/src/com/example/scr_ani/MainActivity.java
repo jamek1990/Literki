@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
 	private Reguly reguly;
 	
 	
-	//Klasy potrzebne do obs³ugi zdarzen drag and drop
+	//Klasy potrzebne do obs³ugi zdarzen drag and drop2
 	
 	private ViewGroup dragLayer;
 	private DragRecognizer dragRecognizer;
