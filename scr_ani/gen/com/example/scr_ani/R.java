@@ -50,40 +50,51 @@ public final class R {
     }
     public static final class drawable {
         public static final int active_player_indicator=0x7f020000;
-        public static final int background=0x7f020001;
-        public static final int background_tile=0x7f020002;
-        public static final int bar=0x7f020003;
-        public static final int cell_dl=0x7f020004;
-        public static final int cell_dw=0x7f020005;
-        public static final int cell_fr=0x7f020006;
-        public static final int cell_fr2=0x7f020007;
-        public static final int cell_star=0x7f020008;
-        public static final int cell_tl=0x7f020009;
-        public static final int cell_tw=0x7f02000a;
-        public static final int drop_target=0x7f02000b;
-        public static final int ic_btn_clear=0x7f02000c;
-        public static final int ic_btn_clear_disabled=0x7f02000d;
-        public static final int ic_btn_clear_selector=0x7f02000e;
-        public static final int ic_btn_mix=0x7f02000f;
-        public static final int ic_btn_mix_disabled=0x7f020010;
-        public static final int ic_btn_mix_selector=0x7f020011;
-        public static final int ic_btn_play=0x7f020012;
-        public static final int ic_btn_play_disabled=0x7f020013;
-        public static final int ic_btn_play_selector=0x7f020014;
-        public static final int ic_launcher=0x7f020015;
-        public static final int quick_button=0x7f020016;
-        public static final int quick_button_normal=0x7f020017;
-        public static final int quick_button_pressed=0x7f020018;
-        public static final int tile2=0x7f020019;
-        public static final int tile3=0x7f02001a;
+        public static final int b1=0x7f020001;
+        public static final int b1a=0x7f020002;
+        public static final int b2=0x7f020003;
+        public static final int b2a=0x7f020004;
+        public static final int b3=0x7f020005;
+        public static final int b3a=0x7f020006;
+        public static final int background=0x7f020007;
+        public static final int background_tile=0x7f020008;
+        public static final int bar=0x7f020009;
+        public static final int cell_dl=0x7f02000a;
+        public static final int cell_dw=0x7f02000b;
+        public static final int cell_fr=0x7f02000c;
+        public static final int cell_fr2=0x7f02000d;
+        public static final int cell_star=0x7f02000e;
+        public static final int cell_tl=0x7f02000f;
+        public static final int cell_tw=0x7f020010;
+        public static final int drop_target=0x7f020011;
+        public static final int ic_btn_clear=0x7f020012;
+        public static final int ic_btn_clear_disabled=0x7f020013;
+        public static final int ic_btn_clear_selector=0x7f020014;
+        public static final int ic_btn_mix=0x7f020015;
+        public static final int ic_btn_mix_disabled=0x7f020016;
+        public static final int ic_btn_mix_selector=0x7f020017;
+        public static final int ic_btn_play=0x7f020018;
+        public static final int ic_btn_play_disabled=0x7f020019;
+        public static final int ic_btn_play_selector=0x7f02001a;
+        public static final int ic_launcher=0x7f02001b;
+        public static final int menu_button1=0x7f02001c;
+        public static final int menu_button2=0x7f02001d;
+        public static final int menu_button3=0x7f02001e;
+        public static final int quick_button=0x7f02001f;
+        public static final int quick_button_normal=0x7f020020;
+        public static final int quick_button_pressed=0x7f020021;
+        public static final int tile2=0x7f020022;
+        public static final int tile3=0x7f020023;
+        public static final int tlo=0x7f020024;
     }
     public static final class id {
-        public static final int action_settings=0x7f070013;
+        public static final int action_settings=0x7f070016;
         public static final int board=0x7f070005;
         public static final int drag_layer=0x7f070001;
         public static final int layout_quick_panel=0x7f070010;
         public static final int layout_status=0x7f07000e;
         public static final int main_layout=0x7f070002;
+        public static final int opcjeButton=0x7f070014;
         public static final int play=0x7f07000b;
         public static final int player1_score_panel=0x7f07000c;
         public static final int player2_score_panel=0x7f07000d;
@@ -92,26 +103,34 @@ public final class R {
         public static final int player_score=0x7f070008;
         public static final int quick_panel_include=0x7f070003;
         public static final int return_tiles=0x7f070009;
+        public static final int rozpocznijButton=0x7f070013;
         public static final int scoreboard_panel=0x7f070011;
         public static final int shuffle=0x7f07000a;
         public static final int status=0x7f070000;
         public static final int status_msg=0x7f07000f;
         public static final int tile_rack=0x7f070004;
         public static final int tiles_remaining=0x7f070012;
+        public static final int wyjscieButton=0x7f070015;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int player_score=0x7f030001;
-        public static final int quick_panel=0x7f030002;
-        public static final int status_bar=0x7f030003;
+        public static final int activity_first_window=0x7f030000;
+        public static final int activity_gra_opcje=0x7f030001;
+        public static final int activity_main=0x7f030002;
+        public static final int player_score=0x7f030003;
+        public static final int quick_panel=0x7f030004;
+        public static final int status_bar=0x7f030005;
     }
     public static final class menu {
-        public static final int main=0x7f0a0000;
+        public static final int first_window=0x7f0a0000;
+        public static final int gra_opcje=0x7f0a0001;
+        public static final int main=0x7f0a0002;
     }
     public static final class string {
         public static final int action_settings=0x7f080001;
         public static final int app_name=0x7f080000;
         public static final int hello_world=0x7f080002;
+        public static final int title_activity_first_window=0x7f080003;
+        public static final int title_activity_gra_opcje=0x7f080004;
     }
     public static final class style {
         public static final int AppBaseTheme=0x7f090000;
